@@ -1,9 +1,13 @@
 {
   "name": "create-an-application",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "My own application",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start" : "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +15,8 @@
     "url": "git+https://github.com/bowmanb1/create-an-application.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "heroku"
   ],
   "author": "Brad Bowman",
   "license": "ISC",
